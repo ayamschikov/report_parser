@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'require_all'
+require_all 'lib'
+# require_rel '../lib'
+# require './lib/app'
+
+App.new.call
